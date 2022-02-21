@@ -32,10 +32,9 @@ export const SearchResults = () => {
   }, []);
 
   const getData = () => {
-    axios.get(`https://fast-reef-22226.herokuapp.com/data?q=${search}`).then(
-      ({ data }) => dispatch(search_Data(data))
-      // dispatch(search_Data(search))
-    );
+    axios
+      .get(`https://fast-reef-22226.herokuapp.com/data?q=${search}`)
+      .then(({ data }) => dispatch(search_Data(data)));
   };
   return (
     <div style={{ textAlign: "left" }}>

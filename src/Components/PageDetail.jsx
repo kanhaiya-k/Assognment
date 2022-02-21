@@ -1,5 +1,3 @@
-/** @format */
-
 import axios from "axios";
 import { Link, useParams } from "react-router-dom";
 import { Col, Container, Button } from "react-bootstrap";
@@ -21,8 +19,8 @@ export const PageDetail = () => {
 
   return (
     <div>
-      <h1>Page Details</h1>
-      <Link to="/search">Back To Search Page</Link>
+      <h1>Description</h1>
+      <Link to="/search">Search</Link>
       <hr />
       <Container id="detailed-result">
         <Col md={6} className="m-auto" style={{ textAlign: "left" }}>

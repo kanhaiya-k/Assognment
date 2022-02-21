@@ -24,7 +24,7 @@ export const Google = () => {
             <Form.Control
               type="text"
               size="lg"
-              placeholder="Search Google"
+              placeholder="Search here..."
               style={{ borderRadius: "30px" }}
               className="search-box"
               onChange={handleData}
